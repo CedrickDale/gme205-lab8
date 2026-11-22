@@ -87,7 +87,7 @@ The following tools were used:
    DB_HOST=localhost
    DB_NAME=gme205_lab6
    DB_USER=postgres
-   DB_PASSWORD=your_password_here
+   DB_PASSWORD=password
    DB_PORT=5432
    ```
 
@@ -105,26 +105,6 @@ The following tools were used:
    SELECT parcel_id, land_use
    FROM lab6.parcels ORDER BY parcel_id;
    ```
-
-### Project Structure
-
-    gme205-lab8/
-    ├── src/
-    │   ├── database.py
-    │   ├── spatial.py
-    │   ├── exchange.py
-    │   ├── pipeline.py
-    │   ├── run_lab8.py
-    │   ├── app.py
-    │   ├── map_renderer.py
-    │   └── ogc_services.py
-    ├── output/
-    │   └── residential_parcels.geojson
-    ├── evidence/
-    ├── .env.example
-    ├── .gitignore
-    ├── requirements.txt
-    └── README.md
 
 ### How to Run the Geoprocessing Pipeline
 
